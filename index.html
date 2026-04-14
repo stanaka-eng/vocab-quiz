@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#667eea">
+  <title>📚 今日の用語テスト</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+
+    <!-- ローディング -->
+    <div id="loading" class="screen">
+      <div class="loading-spinner"></div>
+      <p>問題を読み込み中...</p>
+    </div>
+
+    <!-- クイズ画面 -->
+    <div id="quiz" class="screen" style="display:none">
+      <header class="quiz-header">
+        <div class="quiz-meta">
+          <span class="quiz-title">📚 今日の用語テスト</span>
+          <span id="question-num" class="question-num">Q1/5</span>
+        </div>
+        <div class="progress-bar-wrapper">
+          <div id="progress-bar" class="progress-bar" style="width:0%"></div>
+        </div>
+      </header>
+
+      <main class="quiz-main">
+        <!-- 問題カード -->
+        <div class="question-card">
+          <span id="category-badge" class="category-badge">ビジネス用語</span>
+          <p class="question-label">この用語の意味を選んでください</p>
+          <div class="term-display">
+            <span id="term">「用語」</span>
+          </div>
+        </div>
+
+        <!-- 選択肢 -->
+        <div id="choices" class="choices-grid"></div>
+
+        <!-- 解説パネル（回答後に表示） -->
+        <div id="explanation" class="explanation-panel" style="display:none"></div>
+
+        <!-- 次へボタン -->
+        <div id="next-btn-wrapper" class="next-btn-wrapper" style="display:none">
+          <button id="next-btn" class="next-btn">次の問題 →</button>
+        </div>
+      </main>
+    </div>
+
+    <!-- 結果画面 -->
+    <div id="results" class="screen" style="display:none">
+      <div class="results-card">
+        <div class="results-header">
+          <div class="results-emoji">🎉</div>
+          <h2 class="results-title">お疲れさまでした！</h2>
+          <div id="results-score" class="results-score">5問中 4問正解</div>
+          <div id="results-pct" class="results-pct">正解率 80%</div>
+        </div>
+
+        <div id="results-list" class="results-list"></div>
+
+        <div id="sync-status" class="sync-status">⏳ 記録中...</div>
+
+        <div class="results-footer">
+          <p class="results-message">明日もがんばりましょう！ 💪</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- エラー画面 -->
+    <div id="error" class="screen" style="display:none">
+      <div class="error-card">
+        <div class="error-emoji">⚠️</div>
+        <h2>問題を読み込めませんでした</h2>
+        <p id="error-msg">しばらくしてから再試行してください。</p>
+        <button onclick="location.reload()" class="retry-btn">🔄 再試行</button>
+      </div>
+    </div>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

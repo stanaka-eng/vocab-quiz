@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-14",
+  "webhook_url": "",
+  "questions": [
+    {
+      "id": "https://www.notion.so/3414e5d99eb381ed9f3fcfc4bcdeb18c",
+      "term": "MECE",
+      "abbreviation": "Mutually Exclusive, Collectively Exhaustive",
+      "category": "ビジネス用語",
+      "choices": [
+        {"text": "ワークフローの中で業務の停滞や生産性低下を招いている工程のこと", "correct": false},
+        {"text": "情報を伝える際の基準で「もれなくダブりなく」の意", "correct": true},
+        {"text": "ビジネスにおける最優先課題", "correct": false},
+        {"text": "計画・制作・設計などを具体的に実施・実行すること", "correct": false}
+      ]
+    },
+    {
+      "id": "https://www.notion.so/3414e5d99eb38112adadffca70b2d743",
+      "term": "The Model",
+      "abbreviation": "",
+      "category": "ビジネス用語",
+      "choices": [
+        {"text": "インバウンドで来た問い合わせを商談化する営業担当のこと", "correct": false},
+        {"text": "アウトバウンドでリストを作り自社からアプローチする営業手法", "correct": false},
+        {"text": "マーケ→IS→FS→CSに営業プロセスを分割した分業モデル", "correct": true},
+        {"text": "ハウスリストの見込み客にアプローチして受注率を高める手法", "correct": false}
+      ]
+    },
+    {
+      "id": "https://www.notion.so/3414e5d99eb381c5acd6e1205be6a094",
+      "term": "メラビアンの法則",
+      "abbreviation": "",
+      "category": "ビジネス用語",
+      "choices": [
+        {"text": "感情や態度で印象付ける際、視覚(55%)・聴覚(38%)・言語(7%)の順で影響する", "correct": true},
+        {"text": "単純接触効果と同義。接触回数が多いほど好感度が上がる心理現象", "correct": false},
+        {"text": "ある事柄との類似点を見つけて理解を深める思考法", "correct": false},
+        {"text": "常識を疑い、多角的な観点から思考する手法", "correct": false}
+      ]
+    },
+    {
+      "id": "https://www.notion.so/3414e5d99eb381d8b28dff049d93b196",
+      "term": "コモディティ化",
+      "abbreviation": "",
+      "category": "ビジネス用語",
+      "choices": [
+        {"text": "その企業が持つ「他社優位性」や「組織的能力」のこと", "correct": false},
+        {"text": "複雑に入り組んだビジネス上の課題・困難状況を指すメタファー", "correct": false},
+        {"text": "結果を分ける重要な分岐点・転換点のこと", "correct": false},
+        {"text": "高付加価値だった製品・サービスが差別化を失い汎用品になる現象", "correct": true}
+      ]
+    },
+    {
+      "id": "https://www.notion.so/3414e5d99eb38192b61bc989a7f2ea7f",
+      "term": "eNPS",
+      "abbreviation": "employee Net Promoter Score",
+      "category": "ビジネス用語",
+      "choices": [
+        {"text": "週次〜月次など高頻度で実施するエンゲージメントサーベイの一種", "correct": false},
+        {"text": "従業員の満足度調査で「職場を友人にどれくらい勧めたいか」でロイヤルティをはかる指標", "correct": true},
+        {"text": "年一回、詳細に実施するエンゲージメントサーベイの一種", "correct": false},
+        {"text": "人的資本管理（Human Capital Management）の略称", "correct": false}
+      ]
+    }
+  ]
+}
